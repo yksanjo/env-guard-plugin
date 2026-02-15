@@ -1,0 +1,9 @@
+{
+  "name": "env-guard-plugin",
+  "version": "1.0.0",
+  "description": "IDE plugins for VS Code and IntelliJ",
+  "type": "module",
+  "keywords": ["ide", "plugin", "vscode", "intellij"],
+  "author": "",
+  "license": "MIT"
+}

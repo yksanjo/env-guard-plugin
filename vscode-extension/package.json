@@ -1,0 +1,38 @@
+{
+  "name": "envguard-vscode",
+  "displayName": "EnvGuard",
+  "description": "Environment variable management for VS Code",
+  "version": "1.0.0",
+  "publisher": "envguard",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other",
+    "Security"
+  ],
+  "activationEvents": [
+    "onCommand:envguard.list",
+    "onCommand:envguard.get"
+  ],
+  "commands": [
+    {
+      "command": "envguard.list",
+      "title": "EnvGuard: List Variables"
+    },
+    {
+      "command": "envguard.get",
+      "title": "EnvGuard: Get Variable"
+    }
+  ],
+  "configuration": {
+    "title": "EnvGuard",
+    "properties": {
+      "envguard.endpoint": {
+        "type": "string",
+        "default": "http://localhost:3000",
+        "description": "EnvGuard API endpoint"
+      }
+    }
+  }
+}
