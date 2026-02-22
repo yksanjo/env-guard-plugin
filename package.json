@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "IDE plugins for VS Code and IntelliJ",
   "type": "module",
-  "keywords": ["ide", "plugin", "vscode", "intellij"],
+  "keywords": [
+    "ide",
+    "plugin",
+    "vscode",
+    "intellij"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  }
 }
